@@ -1,4 +1,4 @@
-# Medico AI 💊
+# Medico AI 
 
 **Your Health, Your Language, Your Care.**
 
@@ -6,11 +6,11 @@ Medico AI is a mobile-first medicine reminder web application designed to help p
 
 > **Medical Disclaimer:** Medico AI is a reminder tool, not a medical device. It does not diagnose conditions, prescribe medicines, recommend or change doses, verify prescriptions, or identify pills. Always consult a doctor or pharmacist for medical advice.
 
-##  Problem Statement
+## problem Statement
 
 People managing regular medication schedules may forget reminders or find text-based applications difficult to use. Language barriers can make reminders less accessible, while unanswered reminders may leave caregivers unaware that a user has not responded.
 
-##  Our Solution
+## 💡 Our Solution
 
 Medico AI provides a simple, mobile-friendly interface with spoken reminders in English and Hindi, medicine schedule management, reminder status tracking, and optional caregiver messaging. It focuses on accessibility, privacy, consent, and user control.
 
@@ -54,7 +54,7 @@ Each escalation stage runs at most once per medicine per day. Quiet hours suppre
 
 The current prototype has no backend, database, user accounts, cloud synchronization, external package dependencies, or AI/LLM integration. “AI” is part of the project name; the current prototype does not use an AI model.
 
-##  Project Structure
+## 📁 Project Structure
 
 ```text
 medico-ai/
@@ -100,7 +100,7 @@ python3 -m http.server 8080
 
 **3. Open the application**
 
-Visit [http://localhost:8080](http://localhost:8080) in your browser.
+Visit [https://github.com/shloka753-sketch/Medico.git) in your browser.
 
 Because the application uses JavaScript ES modules, run it through an HTTP server rather than opening `index.html` directly from your file system.
 
@@ -142,7 +142,7 @@ Replace the placeholders with the actual GitHub username and repository name.
 - Caregiver SMS messages are prepared for manual sending; the application does not automatically send or confirm delivery.
 - Clearing browser data may remove saved application information.
 
-##  Safety and Limitations
+## Safety and Limitations
 
 - Enter medicine details exactly as written on the prescription.
 - Medico AI does not calculate doses, identify pills, diagnose conditions, or verify prescriptions.
@@ -153,7 +153,7 @@ Replace the placeholders with the actual GitHub username and repository name.
 - A prepared caregiver message is not a sent or delivered alert.
 - In a genuine emergency in India, call **112** directly. Do not wait for the application.
 
-##  Future Improvements
+## Future Improvements
 
 Potential future improvements include:
 
@@ -167,8 +167,7 @@ Potential future improvements include:
 
 These are future possibilities, not features currently implemented in this prototype.
 
-
-## Team Contributions
+# Team Contributions
 
 **1. Divyansh Raturi – Project Lead & Planning**
 - Identified the problem and defined the project objectives.
@@ -197,11 +196,10 @@ These are future possibilities, not features currently implemented in this proto
 
 ### Team Collaboration
 All five members contributed to planning, reviewing the solution, discussing improvements, and preparing the final hackathon presentation.
-
 ##  Contributing
 
 Issues and pull requests are welcome. Please prioritize accessibility, privacy, and safe handling of health-related information. Do not add features that invent or alter medical instructions or claim message delivery without confirmation.
 
 ##  License
 
-No license has been specified yet. Add a `LICENSE` file before distributing this project under a specific open-source license..
+No license has been specified yet. Add a `LICENSE` file before distributing this project under a specific open-source license.
